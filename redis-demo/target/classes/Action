@@ -1,0 +1,60 @@
+{
+  "action": [
+    {
+      "actionName": "addNum",
+      "describe": "计数加1",
+      "retrieve": [
+        {
+          "counterName": "showNum"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "addNum"
+        }
+      ]
+    },
+    {
+      "actionName": "descNum",
+      "describe": "计数减1",
+      "retrieve": [
+        {
+          "counterName": "showNum"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "descNum"
+        }
+      ]
+    },
+    {
+      "actionName": "addFreqNum",
+      "describe": "用户时段上线数增加",
+      "retrieve": [
+        {
+          "counterName": "showFreqNum"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "addFreqNum"
+        }
+      ]
+    },
+    {
+      "actionName": "descFreqNum",
+      "describe": "用户时段上线数减少",
+      "retrieve": [
+        {
+          "counterName": "showFreqNum"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "descFreqNum"
+        }
+      ]
+    }
+  ]
+}
